@@ -3,10 +3,10 @@
 function removeDuplicationLetters(str) {
 // Метод 1 array
 /*
-    let arr = str.toLowerCase().split(''); 
+    const arr = str.toLowerCase().split(''); 
     console.log('arr:', arr);
 
-    let newArr = arr.filter(function(letter, i, arr) {
+    const newArr = arr.filter(function(letter, i, arr) {
         return ((arr.indexOf(letter) == i ) || (letter === ' '))
     });
     console.log('newArr:', newArr);
