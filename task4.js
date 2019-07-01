@@ -11,14 +11,14 @@ function sumRange(start, end) {
 // за допомогою методів масивів
 /*
 function sumRange(start, end) {
-     let arr = [];
+     const arr = [];
      for (let i = start; i <= end; i++) {
         arr.push(i);  // console.log(arr)
      }; 
      console.log('array:', arr);
 
  // метод 1
-    let totalSum = arr.reduce(function(prevResult, current) {
+    const totalSum = arr.reduce(function(prevResult, current) {
         return prevResult + current
     }); 
     console.log('totalSum', totalSum);
