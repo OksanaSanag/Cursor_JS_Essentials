@@ -3,7 +3,7 @@
 
 function reverse(str) {
 
-    /* let arr = str.split('');     console.log(arr);
+    /* const arr = str.split('');     console.log(arr);
        arr.reverse();               console.log(arr);
        str = arr.join('');          console.log(str); 
     */
