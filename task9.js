@@ -14,4 +14,4 @@ function toUppercase(str) {
 } 
 
 toUppercase('abc');
-toUppercase('abc 12а %^&*@#$!df fg 56h#$');
+toUppercase('abc 12щйф %^&*@#$!df fg 56h#$');
