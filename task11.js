@@ -1,7 +1,7 @@
 //A function that when given a number n returns the n-th number in the Fibonacci Sequence. The sequence starts from 1 and looks like this: 1, 1, 2, 3, 5, 8, 13, 21…
 
 function fibonacci(n) { 
-    let a = [1, 1];
+    const a = [1, 1];
 
     for (let i = 2; i < n; i++) {
         a.push(a[i-1] + a[i-2]);      
