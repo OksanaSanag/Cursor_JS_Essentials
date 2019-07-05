@@ -2,9 +2,9 @@
 
 function cursorCheck(str) { 
     str = str.toLowerCase();
-    return console.log((str.indexOf("ironman") !== -1) || 
+    return (str.indexOf("ironman") !== -1) || 
         (str.indexOf("cursor") !== -1) || 
-        (str.indexOf("ostap") !== -1) );
+        (str.indexOf("ostap") !== -1);
 };
 
 cursorCheck('Hello I am OstaP') // true
